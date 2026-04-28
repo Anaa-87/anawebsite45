@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mensaje 4</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: black;
+      color: white;
+      overflow: hidden;
+    }
+
+    .section {
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      box-sizing: border-box;
+
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+      pointer-events: none;
+    }
+
+    .active {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: all;
+    }
+
+    .button {
+      background: white;
+      color: black;
+      border-radius: 50%;
+      width: 220px;
+      height: 220px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+    }
+
+    .button:hover {
+      transform: scale(1.1);
+    }
+
+    .text-container {
+      max-width: 800px;
+      max-height: 90vh;
+      overflow-y: auto;
+      font-size: 18px;
+      line-height: 1.8;
+      text-align: left;
+    }
+
+    .text-container p {
+      margin-bottom: 18px;
+    }
+
+    strong {
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<div id="section1" class="section active">
+  <div class="button" onclick="goToSection2()">
+    Este es el 4to mensaje
+  </div>
+</div>
+
+<div id="section2" class="section">
+  <div class="text-container">
+
+<p>Hola Ana 🫂</p>
+<p>Ayer te fallé, y no me gustó nada.</p>
+<p>Hoy vengo a cumplir lo que prometí.</p>
+<p>Ya van 4 días ⏳</p>
+<p>Perdón si esto te resulta un poco intenso o raro 😿</p>
+<p>Cuando termine con las siete cosas, te dejo en paz, lo prometo 💕</p>
+<p>Hoy quiero hablarte de tres cosas: mis miedos, los recuerdos y tu calma 🌙</p>
+
+<p>Capaz suene medio tonto hacerlo así, desde el anonimato, pero es la forma que encontré para decir lo que tengo adentro sin frenarme.</p>
+<p>No es para pedirte nada, ni ponerte en una situación incómoda.</p>
+<p>Es más bien una forma de soltar todo esto que venía guardando hace tiempo.</p>
+
+<p>Sé que me gustás.</p>
+<p>Y también sé que a veces me pierdo en pensamientos donde aparecés vos, sin quererlo demasiado.</p>
+<p>A veces te volvés parte de lo cotidiano en mi cabeza.</p>
+<p>Y con esto solo quiero que sepas algo simple: destacás.</p>
+<p>Mucho.</p>
+<p>No solo para mí, para cualquiera que te mire bien 😼</p>
+
+<p><strong>1. El miedo.</strong></p>
+<p>Me da miedo perderte, incluso sin tenerte.</p>
+<p>Suena raro, ya sé 🥀</p>
+<p>Pero es más una idea que otra cosa: el miedo a que algo cambie, a que dejes de ser eso que hoy sos, o a que simplemente desaparezcas de mi radar.</p>
+
+<p>No espero nada con esto.</p>
+<p>No es una confesión para que pase algo.</p>
+<p>Es solo ser sincero.</p>
+
+<p>Yo estoy en mi proceso, mejorando de a poco.</p>
+<p>No soy la mejor versión de mí todavía, pero tampoco soy el de antes.</p>
+<p>Y eso ya es algo.</p>
+
+<p>Encontré cosas que me motivan, cosas que quiero construir, y eso me está ayudando a avanzar.</p>
+<p>Quizás algún día me anime a decir esto sin esconderme.</p>
+<p>Hoy no.</p>
+<p>Hoy me alcanza con esto.</p>
+
+<p>Quiero que sigas siendo como sos ✨</p>
+<p>Bonita, inteligente, divertida, capaz.</p>
+<p>Con esa forma tan tuya de estar.</p>
+
+<p>Y sí, también está ese miedo medio tonto de caer en tu “blacklist” sin saber porque si, puede pasar, que tu me veas por ahí sin saber que soy yo, que tu pienses algo malo de mí, sin ser yo.</p>
+
+<p>Pero bueno, es parte del riesgo de todo esto, y es normal no te culpo, al fin y al cabo soy yo el que está ocultando su identidad.</p>
+
+<p>No busco cambiar nada.</p>
+<p>Solo aprovechar estos días para decirte lo que pienso y listo.</p>
+
+<p>Si lo resumo: no es que tenga miedo de perder “algo”, sino de perder lo que generás siendo quien sos.</p>
+
+<p><strong>2. Es el tiempo ⏳</strong></p>
+<p>Cuando algo se vuelve recuerdo, ahí es donde toma valor.</p>
+<p>Y aunque sean pocos, los que tengo me alcanzan para saber que valen mucho.</p>
+<p>No hace falta decir cuáles son.</p>
+<p>Yo los sé.</p>
+<p>Y con eso basta.</p>
+
+<p>Son detalles, momentos chicos.</p>
+<p>Pero me dejan sensaciones que no encuentro en cualquier lado.</p>
+
+<p>Me transmitís calma y, de alguna forma, ganas de ser mejor.</p>
+<p>No porque dependa de vos, sino porque despertás algo que ya estaba ahí, medio dormido.</p>
+
+<p>Y eso te lo agradezco muchísimo Ana.</p>
+
+<p>Guardo poco, pero lo que guardo lo valoro en serio.</p>
+<p>Y vos estás dentro de eso.</p>
+
+<p>Por eso estos días no son para decir siempre lo mismo.</p>
+<p>Quiero variar, hacerlo distinto, que no sea un texto vacío más.</p>
+
+<p>Y bueno, también decirte algo simple: sos una muy linda persona.</p>
+<p>En serio.</p>
+<p>Gracias por estar, incluso sin saberlo 💫</p>
+
+<p><strong>3. Tu calma 🌙</strong></p>
+<p>Esa calma tuya que aparece sin hacer ruido, pero que igual se nota.</p>
+<p>No necesitás llamar la atención para tenerla.</p>
+<p>Simplemente estás, y alcanza.</p>
+
+<p>Y no sé bien cómo, pero eso ordena bastante el quilombo que uno lleva adentro.</p>
+
+<p>No exigís nada, no forzás nada.</p>
+<p>Y aun así generás algo fuerte.</p>
+
+<p>Tu calma no es quietud.</p>
+<p>Es como un punto fijo cuando todo alrededor va demasiado rápido.</p>
+
+<p>Por eso termino escribiendo esto.</p>
+<p>Porque en medio de todo, aparecés vos como ese lugar donde la cabeza baja un cambio.</p>
+
+<p>Y eso no me pasa seguido.</p>
+<p>No sé si es poder, pero sí es algo raro.</p>
+<p>De esos que no se explican fácil.</p>
+
+<p>Te dije que te debía una grande.</p>
+<p>Acá está lo que no te di ayer.</p>
+<p>Espero que haya valido la espera de estas 24 horas 💕</p>
+
+  </div>
+</div>
+
+<script>
+function goToSection2() {
+  const s1 = document.getElementById("section1");
+  const s2 = document.getElementById("section2");
+
+  s1.classList.remove("active");
+
+  setTimeout(() => {
+    s2.classList.add("active");
+  }, 200);
+}
+</script>
+
+</body>
+</html>
